@@ -55,6 +55,20 @@ All current MVP agents live under the `/examples/` folder as Jupyter notebooks o
 - Outputs a **final Markdown deliverable** (habits + email + validation).  
 - Includes an interactive **Gradio app** where users can enter campaign briefs and instantly generate approved habit-based emails.
 
+### 6. 🍲 Grow Routine – Cultural Meal Plans (`examples/cultural_meal_plans.ipynb`)
+- Spanish-first multi-role agent combining:  
+  - 🏋️ **Coach** → Generates personalized physical & lifestyle recommendations.  
+  - 🥦 **Nutritionist** → Creates **3 full daily menus** (Day 1, 2, 3) with:
+    - Lunch, post-workout snack, dinner.  
+    - Ingredients (grams, spoons, etc.) + short preparation steps.  
+    - Cultural adaptation (based on nationality or preference).  
+    - Clear macros (Proteins, Carbs, Fats, Calories) per meal.  
+  - ✅ **Professional Validator** → Reviews plan for nutritional logic, cultural fit, fasting compliance, clarity, and user applicability.  
+    - Provides decision: “Aprobado ✅” or “Ajustar ⚠️” with explanation.  
+- Conditional loop: nutritionist regenerates menus if validator requests adjustments.  
+- Outputs a **final Markdown summary**: coach insights + meal plans + validation + motivational closure.  
+- ✅ Interactive **Gradio UI** for InBody, goals, restrictions, and cultural context → structured multi-day nutrition plan.
+
 ---
 
 ## 📂 Repository Structure
