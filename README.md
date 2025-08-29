@@ -1,6 +1,6 @@
-# 🌍 AgentFlow
+# 🌍 LLM Agent Lab
 
-AgentFlow is an **AI agent lab** built with LangChain + LangGraph.  
+**AI agent lab** built with LangChain + LangGraph.  
 It’s a sandbox where ideas turn into **working MVPs**: small, functional agents that can later be exposed as APIs and consumed in Next.js/React projects to create **dynamic and scalable websites**.
 
 The vision: build a **library of agents**, each one tackling a real-world use case, starting lean and evolving into production-ready tools.
