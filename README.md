@@ -45,6 +45,16 @@ All current MVP agents live under the `/examples/` folder as Jupyter notebooks o
 - Outputs a **final Markdown summary**: plan + validation + motivational note.  
 - ✅ Interactive **Gradio UI** for InBody + goals input → final structured plan output.
 
+### 5. ✉️ GrowRoutine Habit → Email Generator (`examples/habit_to_email.ipynb`)
+- Turns **Pareto 80/20 habits** into practical, motivational **email campaigns**.  
+- Workflow:
+  - 🧠 **TrendScout** → Extracts 3–5 core habits (name, why it’s 80/20, minimal action, principle, example).  
+  - ✍️ **Marketing Agent** → Picks one habit and writes a structured email (subject, preheader, hook, steps, why it works, book reference, weekly challenge, CTAs, signature).  
+  - ✅ **Validator** → Ensures one-habit focus, correct structure, clarity, length (140–220 words), and energy.  
+- Conditional feedback loop: regenerates emails if validation fails.  
+- Outputs a **final Markdown deliverable** (habits + email + validation).  
+- Includes an interactive **Gradio app** where users can enter campaign briefs and instantly generate approved habit-based emails.
+
 ---
 
 ## 📂 Repository Structure
