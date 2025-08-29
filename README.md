@@ -36,7 +36,7 @@ All current MVP agents live under the `/examples/` folder as Jupyter notebooks o
 - ✅ Supports **Prompt Pages** (special Confluence pages that act as agent instructions).  
   e.g. *AI-Agent: Service Desk Instructions*, *AI-Agent: Travel Experience Playbook*
 
-### 4. 🧠 Grow Routine – Nutrition & Lifestyle Validator (`examples/grow-routine-5-spanish-validador.ipynb`)
+### 4. 🧠 Grow Routine – Nutrition & Lifestyle Validator (`examples/macro_nutrition_pipeline.ipynb`)
 - Spanish-first multi-role agent combining:  
   - 🏋️ **Coach** → Generates physical & lifestyle recommendations.  
   - 🥦 **Nutritionist** → Creates nutrition plan with macros, calories, considerations (fasting, allergies), and technical justification.  
